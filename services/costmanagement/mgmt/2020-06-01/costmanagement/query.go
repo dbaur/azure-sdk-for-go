@@ -120,7 +120,7 @@ func (client QueryClient) UsagePreparer(ctx context.Context, scope string, param
 		"scope": scope,
 	}
 
-	const APIVersion = "2020-06-01"
+	const APIVersion = "2019-11-01"
 	queryParameters := map[string]interface{}{
 		"api-version": APIVersion,
 	}
@@ -233,7 +233,7 @@ func (client QueryClient) UsageByExternalCloudProviderTypePreparer(ctx context.C
 		"externalCloudProviderType": autorest.Encode("path", externalCloudProviderType),
 	}
 
-	const APIVersion = "2020-06-01"
+	const APIVersion = "2019-11-01"
 	queryParameters := map[string]interface{}{
 		"api-version": APIVersion,
 	}

@@ -1076,7 +1076,7 @@ type QueryFilter struct {
 	// Dimension - Has comparison expression for a dimension
 	Dimension *QueryComparisonExpression `json:"dimensions,omitempty"`
 	// Tag - Has comparison expression for a tag
-	Tag *QueryComparisonExpression `json:"tag,omitempty"`
+	Tag *QueryComparisonExpression `json:"tags,omitempty"`
 }
 
 // QueryGrouping the group by expression to be used in the query.

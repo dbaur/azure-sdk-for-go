@@ -1074,7 +1074,7 @@ type QueryFilter struct {
 	// Not - The logical "NOT" expression.
 	Not *QueryFilter `json:"not,omitempty"`
 	// Dimension - Has comparison expression for a dimension
-	Dimension *QueryComparisonExpression `json:"dimension,omitempty"`
+	Dimension *QueryComparisonExpression `json:"dimensions,omitempty"`
 	// Tag - Has comparison expression for a tag
 	Tag *QueryComparisonExpression `json:"tag,omitempty"`
 }
